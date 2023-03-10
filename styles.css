@@ -1,0 +1,133 @@
+.wrapper{
+
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    background-color:lightgray;
+   
+}
+.header img{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 210px;
+    height: 50px;
+}
+
+.header h1{
+    margin-right: 24rem;
+}
+
+.content{
+   
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Topic{
+    text-decoration: none;
+}
+
+.Topic :hover{
+    scale: 2px;
+    translate: 5px;
+}
+
+#Topic{
+    min-width: 15rem;
+    /* border: 2px solid gray; */
+    border-radius: 4%;
+}
+
+#Medium{
+    min-width: 15rem;
+    /* border: 2px solid gray; */
+    border-radius: 4%;
+}
+
+.Medium{
+    text-decoration: none;
+}
+
+#Language{
+    
+    min-width: 15rem;
+    /* border: 2px solid gray; */
+    border-radius: 4%;
+}
+
+.Language :hover{
+    scale: 2px;
+    translate: 5px;
+}
+
+.Medium :hover{
+    scale: 2px;
+    translate: 5px;
+}
+
+
+.lang1{
+    text-decoration: none;
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lang2{
+    text-decoration: none;
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lang3{
+    text-decoration: none;
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-section1,.card-section2,.card-section3,.card-section4,.card-section5,.card-section6{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: baseline;
+    justify-content: center;
+    /* grid-template-columns: auto auto auto auto; 
+    grid-template-rows: auto; 
+    */
+}
+
+.card-section1,.card-section2,.card-section3,.card-section4,.card-section5,.card-section-6 :hover{
+    translate: 5px;
+   
+}
+
+.card :hover{
+    translate: 5px;
+    scale: 2px;
+}
+
+.card{
+    display: flex;
+    max-width: 280px;
+    min-width: 280px;
+    flex-direction: column;
+    border: 2px solid gray;
+    border-radius: 4%;
+    
+    /* text-decoration: none; */
+    /* justify-content: space-evenly; */
+}
+
+.card a{
+    text-decoration: none;
+}
